@@ -59,6 +59,11 @@ body {
   border-radius: 12px;
   font-size: 18px;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(95%);
 }
 
 .btn-primary {
@@ -69,6 +74,10 @@ body {
 .btn-default {
   background-color: #fff;
   color: #0357ee;
+}
+
+.btn-default:hover {
+  background-color: #efefef;
 }
 
 .container-right-img {
