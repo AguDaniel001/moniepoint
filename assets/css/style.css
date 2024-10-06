@@ -3,10 +3,21 @@ body {
   background-color: #f8fafd;
   font-family: Arial, Helvetica, sans-serif;
   color: #3e588e;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+main {
+  /* max-width: 1024px; */
 }
 
 .container {
-  padding: 100px 150px;
+  display: flex;
+  justify-content: center;
+  padding: 70px 20px;
+  border: 1px solid blue;
 }
 
 .flex {
@@ -17,6 +28,7 @@ body {
 
 .flex-1 {
   flex: 1;
+  border: 1px solid blue;
 }
 
 .badge {
