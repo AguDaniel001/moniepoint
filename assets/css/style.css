@@ -16,8 +16,8 @@ main {
 .container {
   display: flex;
   justify-content: center;
-  padding: 70px 20px;
-  border: 1px solid blue;
+  padding: 70px 60px;
+  border: 1px solid green;
 }
 
 .flex {
@@ -73,7 +73,9 @@ main {
 }
 
 .container-right-img {
-  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
 }
 
 .container-right {
